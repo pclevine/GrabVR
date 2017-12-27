@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1028270996828592}
+  m_IsPrefabParent: 1
+--- !u!1 &1028270996828592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4327423898616352}
+  - component: {fileID: 114710156752406888}
+  - component: {fileID: 82764794583109620}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4327423898616352
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028270996828592}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82764794583109620
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028270996828592}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 0
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114710156752406888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028270996828592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d999109d29648e1458fc35463732f5f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Plane: {fileID: 1984807870799950, guid: d17d449a4df7ac04e983443aa3bea5f5, type: 2}
+  Orb: {fileID: 1339974889815338, guid: c923c3bc777ef6549b05c70afa3dc73e, type: 2}
+  Chaser: {fileID: 1381661621141188, guid: 59921e8674676d340b2b899acb55dc98, type: 2}
+  PowerOrb: {fileID: 1167911131713524, guid: 86b234bc94b84744bb235d2ab117bb4b, type: 2}
+  ScoreText: {fileID: 1968000436758248, guid: 2468da10c801e2b43b42109215754416, type: 2}
+  LobbyTextParent: {fileID: 1276318352435196, guid: e229d6a02addff64a9a227a494c6e7d2,
+    type: 2}
+  GameOverText: {fileID: 1038614603126064, guid: 44a222a81295a3a4d8380668195fc88e,
+    type: 2}
+  StartButton: {fileID: 1798788566650248, guid: ce87a5376c0de82498aabf816f666e1c,
+    type: 2}
+  ReturnButton: {fileID: 1798788566650248, guid: edf84954d68c05c47a9bf1441cf5e118,
+    type: 2}
+  StartSound: {fileID: 8300000, guid: 4a371987d716d3a44a37a1b7899c4da7, type: 3}
+  Music: {fileID: 8300000, guid: 099558ad47a8ecc49a662218134161e6, type: 3}
+  PowerMusic: {fileID: 8300000, guid: 4c0d4a2720c670a41abd9390f7aa9441, type: 3}
+  Logo: {fileID: 2100000, guid: 2ba4a20bca683f5419515ae1ce5c4d93, type: 2}
+  Grid: {fileID: 2100000, guid: f7a68c2e3d8217a4b99ea840a07ba346, type: 2}

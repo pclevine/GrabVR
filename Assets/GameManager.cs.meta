@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: d999109d29648e1458fc35463732f5f7
+timeCreated: 1507934733
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Plane: {fileID: 1984807870799950, guid: d17d449a4df7ac04e983443aa3bea5f5, type: 2}
+  - Orb: {fileID: 1339974889815338, guid: c923c3bc777ef6549b05c70afa3dc73e, type: 2}
+  - Chaser: {fileID: 1381661621141188, guid: 59921e8674676d340b2b899acb55dc98, type: 2}
+  - PowerOrb: {fileID: 1167911131713524, guid: 86b234bc94b84744bb235d2ab117bb4b, type: 2}
+  - ScoreText: {fileID: 1968000436758248, guid: 2468da10c801e2b43b42109215754416,
+      type: 2}
+  - LobbyTextParent: {fileID: 1276318352435196, guid: e229d6a02addff64a9a227a494c6e7d2,
+      type: 2}
+  - GameOverText: {fileID: 1038614603126064, guid: 44a222a81295a3a4d8380668195fc88e,
+      type: 2}
+  - StartButton: {fileID: 1798788566650248, guid: ce87a5376c0de82498aabf816f666e1c,
+      type: 2}
+  - ReturnButton: {fileID: 1798788566650248, guid: edf84954d68c05c47a9bf1441cf5e118,
+      type: 2}
+  - StartSound: {fileID: 8300000, guid: 4a371987d716d3a44a37a1b7899c4da7, type: 3}
+  - Music: {fileID: 8300000, guid: 099558ad47a8ecc49a662218134161e6, type: 3}
+  - PowerMusic: {fileID: 8300000, guid: 4c0d4a2720c670a41abd9390f7aa9441, type: 3}
+  - Logo: {fileID: 2100000, guid: 2ba4a20bca683f5419515ae1ce5c4d93, type: 2}
+  - Grid: {fileID: 2100000, guid: f7a68c2e3d8217a4b99ea840a07ba346, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

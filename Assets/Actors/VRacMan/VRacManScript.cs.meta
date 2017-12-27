@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 72092c8d34824774180c5241216e4839
+timeCreated: 1500227865
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - OriginalMaterial: {fileID: 2100000, guid: b91b3afa4e93eb14ba1fe9c2fa971064, type: 2}
+  - PoweredMaterial: {fileID: 2100000, guid: 49dc4e91b34993a43a3edc641ea744fc, type: 2}
+  - DeadMaterial: {fileID: 2100000, guid: 2d6b5c848bdbd674fb780a214f8e3af7, type: 2}
+  - Point: {fileID: 8300000, guid: 6a1ca44bd84769842aae3ee8569776e8, type: 3}
+  - Death: {fileID: 8300000, guid: 6d1780965f1a94d40b8e7621d565bbc9, type: 3}
+  - PowerPoint: {fileID: 8300000, guid: 0b82066547011c4479d6c9f6293bc30d, type: 3}
+  - Chomp: {fileID: 8300000, guid: f8eac59c91fee084b8e93fefc534ed4d, type: 3}
+  - EatGhost1: {fileID: 8300000, guid: 7784a27f694439048ab21b036c8cdb73, type: 3}
+  - EatGhost2: {fileID: 8300000, guid: 831cd971c2668224bbe050683cfc6545, type: 3}
+  - EatGhost3: {fileID: 8300000, guid: f0edc977af0870840b7224e1779b147d, type: 3}
+  - EatGhost4: {fileID: 8300000, guid: 4a694e95273aa9c4f91bc67bd8da8cb0, type: 3}
+  - EatGhost5: {fileID: 8300000, guid: ba8c77fa7daa2e24da72867f7af56607, type: 3}
+  - GameManager: {fileID: 1028270996828592, guid: 29e79a847a2a81b4ab97a4832f57c428,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

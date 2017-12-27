@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Actors\VRacMan\ColliderTriggeredAnimation.cs">
+    <Files>
+      <File FileName="Assets\GameManager.cs" Line="47" Column="31" />
+      <File FileName="Assets\Actors\VRacMan\VRacManScript.cs" Line="75" Column="32" />
+      <File FileName="Assets\Actors\VRacMan\ColliderTriggeredAnimation.cs" Line="6" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
